@@ -8,7 +8,9 @@ using System.Threading.Tasks;
 using UnityEditor;
 using UnityEditor.Build;
 using UnityEditor.Build.Reporting;
+#if !UNITY_2023
 using UnityEditor.Il2Cpp;
+#endif
 using UnityEditor.UnityLinker;
 using UnityEngine;
 

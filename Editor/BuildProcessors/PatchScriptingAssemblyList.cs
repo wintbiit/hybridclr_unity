@@ -9,7 +9,9 @@ using UnityEditor;
 using UnityEditor.Android;
 using UnityEditor.Build;
 using UnityEditor.Build.Reporting;
+#if !UNITY_2023
 using UnityEditor.Il2Cpp;
+#endif
 using UnityEditor.UnityLinker;
 using UnityEngine;
 using UnityFS;
